@@ -7,12 +7,12 @@ match priority:
         if time == "yes":
             print(f"'{task}' is a high priority task that requires immediate attention today!")
         else:
-            print(f"'{task}' is a high priority task that requires immediate attention today!")
+            print(f"'{task}' is a low priority task. Consider completing it when you have free time.")
     case "medium":
         if time == "yes":
             print(f"'{task}' is a high priority task that requires immediate attention today!")
         else:
-            print(f"'{task}' is a high priority task that requires immediate attention today!")
+            print(f"'{task}' is a low priority task. Consider completing it when you have free time.")
     case "low":
         if time == "yes":
             print(f"'{task}' is a high priority task that requires immediate attention today!")

@@ -13,7 +13,7 @@ if not temp_input:
 try:
     temp = float(temp_input)
 except ValueError:
-    raise ValueError("Enter a numeric value.")
+    raise ValueError("Invalid temperature. Please enter a numeric value.")
 
 choice = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").upper()
 if choice == "F":

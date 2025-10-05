@@ -9,5 +9,5 @@ def safe_divide(numerator, denominator):
         return "Error: Please enter numeric values only."
     else:
         result = numerator / denominator
-        print(f"{result}")
+        print(f"The result of the division is {result}")
 
